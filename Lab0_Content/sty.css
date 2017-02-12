@@ -1,0 +1,46 @@
+body{
+	text-align: center;
+	background: linear-gradient(to bottom, white,blue);
+}
+h1{
+	font-size: 30px;
+	font: "Times New Roman";
+	color: black;
+	animation-name: aesthetic;
+	animation-duration: 1s;
+}
+img{
+	border: 5px light-blue solid;
+}
+@keyframes aesthetic {
+	0% {color: black}
+	100% {color: blue;}
+}
+@-webkit-keyframes aesthetic {
+	0% {color: black}
+	100% {color: blue;}
+}
+.titlelol{
+animation-name: floater;
+animation-duration: 6s;
+}
+@keyframes floater {
+	0% {color: black; top:300px;}
+	100% {color:light-blue; top:0px;}
+}
+@-webkit-keyframes floater {
+	0% {color: black; top:300px;}
+	100% {color:light-blue; top:0px;}
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.dest {
+	animation-name: fade;
+	animation-duration: 10s;
+}
