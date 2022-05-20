@@ -152,6 +152,7 @@ start and select buttons. */
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -21px;
+    background: black;
     margin-top: 2px;
 }
 .custom .back{
@@ -180,6 +181,7 @@ start and select buttons. */
 }
 .custom .button.pressed{
     background-position-y: -64px;
+    background: black;
     margin-top: 5px;
 }
 .custom .a{
