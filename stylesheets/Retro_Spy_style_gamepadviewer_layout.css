@@ -231,7 +231,7 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    border-radius: 50px/50px;
+    border-radius: 100px/100px;
     border: solid 6px #fff;
     height: 104px;
     width: 104px;
