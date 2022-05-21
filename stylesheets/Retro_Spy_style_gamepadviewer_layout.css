@@ -175,8 +175,8 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:62px;
-    height:62px;
+    width:52px;
+    height: 52px;
     border-radius: 50px/50px;
     border: solid 21px #fff;
 }
