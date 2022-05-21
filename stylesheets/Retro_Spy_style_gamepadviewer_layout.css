@@ -94,7 +94,7 @@ placement */
     border: solid 6px #fff;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
-    opacity: 1;
+    background: #ffffff;
 }
 .custom .bumper.left{
   /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
