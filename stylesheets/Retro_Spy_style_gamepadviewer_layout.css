@@ -141,15 +141,18 @@ start and select buttons. */
     left: 291px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
+.custom .back {
+    opacity: 0;
+}
+.custom .start{
     border-radius: 50px/50px;
-    border: solid 21px #fff;
+    border: solid 21px #f00;
     width: 34px;
     height: 19px;
 }
-.custom .back.pressed, .custom .start.pressed{
+.custom .start.pressed{
     background-position-y: -21px;
-    background: black;
+    background: red;
     margin-top: 2px;
 }
 .custom .back{
@@ -184,8 +187,7 @@ start and select buttons. */
 }
 .custom .a{
     background-position: 62px 0;
-    top: 142px;
-    left: 71px;
+    left: 268px; top: 70px;
     border: solid 6px #3fd6fe;
 }
 .custom .a.pressed {
@@ -194,8 +196,7 @@ start and select buttons. */
 
 .custom .b{
     background-position: 125px 0;
-    top: 71px;
-    right: 0px;
+    left: 245px; top: 34px;
     border: solid 6px #69ff6a;
 }
 .custom .b.pressed {
