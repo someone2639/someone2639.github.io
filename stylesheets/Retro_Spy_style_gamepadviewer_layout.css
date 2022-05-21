@@ -233,8 +233,8 @@ the CSS inline. */
     position: absolute;
     border-radius: 50px/50px;
     border: solid 6px #fff;
-    height: 52px;
-    width: 52px;
+    height: 104px;
+    width: 104px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
