@@ -44,8 +44,9 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://i.imgur.com/YQkMozX.jpg);
-    height: 558px;
-    width: 784px;
+    /* maybe 3x this */
+    height: 113px;
+    width: 392px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: #ffffff;
@@ -224,9 +225,9 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
     border-radius: 50px/50px;
-    border: solid 21px #fff;
-    height:105px;
-    width: 105px;
+    border: solid 6px #fff;
+    height: 52px;
+    width: 52px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
@@ -239,8 +240,7 @@ the CSS inline. */
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    display: none;
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
