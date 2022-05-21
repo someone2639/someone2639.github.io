@@ -226,8 +226,8 @@ the CSS inline. */
     position: absolute;
     width: 364px;
     height: 105px;
-    top: 328px;
-    left: 210px;
+    top: 100px;
+    left: 270px;
 }
 .custom .stick{
     position: absolute;
@@ -254,8 +254,8 @@ the CSS inline. */
     position: absolute;
     width: 140px;
     height: 132px;
-    top: 192px;
-    left: 74px;
+    top: 170px;
+    left: 20px;
 }
 .custom .face{
     border-radius: 50px/50px;
@@ -287,7 +287,7 @@ the CSS inline. */
 }
 .custom .face.right{
     top: 47px;
-    left: 80px;
+    left: 70px;
     background-position: 53px 0;
 }
 .custom .face.pressed{
