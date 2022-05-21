@@ -143,7 +143,7 @@ start and select buttons. */
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
     border-radius: 50px/50px;
-    border: solid 21px #f00;
+    border: solid 21px #fff;
     width: 34px;
     height: 19px;
 }
@@ -175,11 +175,11 @@ start and select buttons. */
     width:62px;
     height:62px;
     border-radius: 50px/50px;
-    border: solid 21px #f00;
+    border: solid 21px #fff;
 }
 .custom .button.pressed{
     background-position-y: -64px;
-    background: black;
+    background: white;
     margin-top: 5px;
 }
 .custom .a{
@@ -213,7 +213,7 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
     border-radius: 50px/50px;
-    border: solid 21px #f00;
+    border: solid 21px #fff;
     height:105px;
     width: 105px;
 }
@@ -241,7 +241,7 @@ the CSS inline. */
 }
 .custom .face{
     border-radius: 50px/50px;
-    border: solid 21px #f00;
+    border: solid 21px #fff;
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
