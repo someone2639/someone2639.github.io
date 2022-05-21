@@ -90,6 +90,8 @@ placement */
     height: 28px;
     left: 99px;
     top: 72px;
+    border-radius: 50px/50px;
+    border: solid 6px #fff;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
