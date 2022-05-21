@@ -286,6 +286,7 @@ the CSS inline. */
 .custom .face.pressed{
     margin-top: 5px;
     background-position-y: 52px;
+    background: white;
 }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
