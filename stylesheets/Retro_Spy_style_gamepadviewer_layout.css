@@ -207,10 +207,17 @@ start and select buttons. */
 .custom .x{
     background-position: 0 0;
     top: 71px;
+    border: solid 6px #f3ff66;
+}
+.custom .x.pressed {
+    background: #f3ff66;
 }
 .custom .y{
     background-position: -63px 0;
-    left: 71px;
+    border: solid 6px #f3ff66;
+}
+.custom .y.pressed {
+    background: #f3ff66;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
@@ -280,7 +287,7 @@ the CSS inline. */
 }
 .custom .face.right{
     top: 47px;
-    left: 75px;
+    left: 80px;
     background-position: 53px 0;
 }
 .custom .face.pressed{
