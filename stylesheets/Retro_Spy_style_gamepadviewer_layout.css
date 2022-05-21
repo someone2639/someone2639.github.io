@@ -45,8 +45,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://i.imgur.com/YQkMozX.jpg);
     /* maybe 3x this */
-    height: 113px;
-    width: 392px;
+    height: 339px;
+    width: 1176px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: #ffffff;
