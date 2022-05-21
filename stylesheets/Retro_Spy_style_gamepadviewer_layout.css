@@ -252,7 +252,7 @@ the CSS inline. */
 }
 .custom .face{
     border-radius: 50px/50px;
-    border: solid 21px #fff;
+    border: solid 6px #fff;
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
@@ -280,7 +280,7 @@ the CSS inline. */
 }
 .custom .face.right{
     top: 47px;
-    right: 0px;
+    left: 75px;
     background-position: 53px 0;
 }
 .custom .face.pressed{
