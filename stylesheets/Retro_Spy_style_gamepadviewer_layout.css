@@ -60,6 +60,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     height: 65px;
     position: absolute;
     left: 99px;
+    border-radius: 50px/50px;
+    border: solid 6px #fff;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:86px;
