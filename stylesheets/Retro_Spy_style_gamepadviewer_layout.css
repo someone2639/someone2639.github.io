@@ -92,8 +92,6 @@ placement */
     height: 28px;
     left: 99px;
     top: 72px;
-    /*border-radius: 50px/50px;
-    border: solid 6px #fff;*/
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     background: #ffffff;
@@ -106,9 +104,13 @@ placement */
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     float: left;
+    border-radius: 50px/50px;
+    border: solid 6px #fff;
 }
 .custom .bumper.right{
     float: right;
+    border-radius: 50px/50px;
+    border: solid 6px #fff;
 }
 /* This bit of code is for the player indicator, which is represented in
 quandrants on the xbox controller. That's note what it's called on the
