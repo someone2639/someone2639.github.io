@@ -305,16 +305,18 @@ the left and right triggers and digital buttons, there are separate
 html items that allow the triggers to be shown as button presses isntead of
 an opacity setting */
 .custom .trigger-button.left{
-    
+    border-radius: 50px/50px;
+    border: solid 6px #fff;
 }
 .custom .trigger-button.right{
-    
+    border-radius: 50px/50px;
+    border: solid 6px #fff;
 }
 .custom .trigger-button.left.pressed{
-    
+    background: #ffffff;
 }
 .custom .trigger-button.right.pressed{
-    
+    background: #ffffff;
 }
 /* This is where the fight stick CSS would go. The ideal way of 
 showing the input would be to use an image sprite of a fight stick in
