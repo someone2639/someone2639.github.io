@@ -221,6 +221,8 @@ start and select buttons. */
 .custom .y{
     background-position: -63px 0;
     border: solid 6px #f3ff66;
+    top: 71px;
+    left: 100px;
 }
 .custom .y.pressed {
     background: #f3ff66;
