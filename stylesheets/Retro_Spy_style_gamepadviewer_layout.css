@@ -313,6 +313,7 @@ an opacity setting */
 }
 .custom .trigger-button.right{
     display: block;
+    position: absolute;
     border-radius: 50px/50px;
     border: solid 6px #fff;
     width: 70px;
