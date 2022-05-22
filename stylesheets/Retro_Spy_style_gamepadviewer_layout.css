@@ -307,10 +307,14 @@ an opacity setting */
 .custom .trigger-button.left{
     border-radius: 50px/50px;
     border: solid 6px #fff;
+    width: 70px;
+    height: 70px;
 }
 .custom .trigger-button.right{
     border-radius: 50px/50px;
     border: solid 6px #fff;
+    width: 70px;
+    height: 70px;
 }
 .custom .trigger-button.left.pressed{
     background: #ffffff;
