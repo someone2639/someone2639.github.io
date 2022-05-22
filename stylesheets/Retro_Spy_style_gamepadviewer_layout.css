@@ -309,11 +309,7 @@ the left and right triggers and digital buttons, there are separate
 html items that allow the triggers to be shown as button presses isntead of
 an opacity setting */
 .custom .trigger-button.left{
-    display: block;
-    border-radius: 50px/50px;
-    border: solid 6px #fff;
-    width: 70px;
-    height: 70px;
+    display: none;
 }
 .custom .trigger-button.right{
     display: block;
@@ -321,6 +317,7 @@ an opacity setting */
     border: solid 6px #fff;
     width: 70px;
     height: 70px;
+    left: 200px;
 }
 .custom .trigger-button.left.pressed{
     background: #ffffff;
