@@ -203,7 +203,7 @@ start and select buttons. */
 
 .custom .b{
     background-position: 125px 0;
-    left: 245px; top: 34px;
+    left: 200px; top: 34px;
     border: solid 6px #69ff6a;
 }
 .custom .b.pressed {
@@ -318,6 +318,7 @@ an opacity setting */
     width: 70px;
     height: 70px;
     left: 200px;
+    top: 100px;
 }
 .custom .trigger-button.left.pressed{
     background: #ffffff;
